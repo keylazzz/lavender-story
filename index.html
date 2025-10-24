@@ -1,0 +1,1040 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Forever Back to You — A Lavender Story</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button id="backBtn" class="back-btn" title="Back to Home">← Back</button>
+
+<nav class="nav-bar">
+  <div class="nav-inner">
+    <div class="brand"><p style="color: white;" >Forever Back To You</p></div>
+    <div class="menu">
+      <a href="#home" onclick="scrollToSection(event,'home')">Home</a>
+      <a href="#story" onclick="scrollToSection(event,'story')">Kisah</a>
+      <a href="#gallery" onclick="scrollToSection(event,'gallery')">Gallery</a>
+      <a href="#forever" onclick="scrollToSection(event,'forever')">Forever</a>
+    </div>
+    <!-- Audio -->
+<!-- <audio id="giftAudio" preload="auto">
+  <source src="assets/audio/Elvis Presley - Can't Help Falling In Love _ Music Travel Love (Cover).mp3" type="audio/mpeg">
+</audio> -->
+
+
+</style>
+  </div>
+
+  <style>
+    nav {
+  background: rgba(142, 45, 226, 0.4); /* ungu transparan */
+  backdrop-filter: blur(10px);
+  padding: 15px 30px;
+  border-radius: 0 0 20px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+nav a {
+  color: white;
+  font-weight: 500;
+  margin: 0 15px;
+  text-decoration: none;
+}
+  </style>
+</nav>
+
+<header id="home" class="hero-invite">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="invite-title">Forever Back to You</h1>
+    <p class="invite-sub">— A Lavender Story</p>
+    <p class="invite-by">Keys &amp; Mylong</p>
+    <div class="hero-cta">
+      <button class="btn primary" onclick="scrollToSection(null,'story')">
+        <a href="#story" onclick="scrollToSection(event,'story')">See Us</a></button>
+      <button class="btn ghost" onclick="scrollToSection(null,'gallery')">
+        <a href="#gallery" onclick="scrollToSection(event,'gallery')">Gallery</a></button>
+
+      <style>
+        .btn {
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease; /* animasi hover */
+}
+
+/* Tombol ungu */
+.btn.primary {
+  background-color: #833ab4; /* ungu aesthetic */
+  color: white;
+  box-shadow: 0 4px 10px rgba(131, 58, 180, 0.4); /* efek shadow */
+}
+
+.btn.primary:hover {
+  background-color: #9c4edb; /* lebih terang saat hover */
+  box-shadow: 0 6px 15px rgba(131, 58, 180, 0.5);
+  transform: translateY(-2px); /* efek naik saat hover */
+}
+      </style>
+    </div>
+  </div>
+  <!-- <div class="hero-decor"></div>
+  <div class="audio-control">
+    <button id="muteBtn" class="audio-btn" title="Mute/Unmute"></button>
+  </div> -->
+  
+</header>
+
+<main class="container">
+  <section id="story" class="story-section card">
+    <div class="story-header"><h2>Our Story</h2><p class="muted">
+      a few moments that changed everything</p></div>
+    <div class="years">
+      <article class="year left">
+        <div class="img"><img src="assets/images/IMG_2617.JPG" alt="2020"></div>
+        <div class="text"><h3>2020 — First Meet</h3><p>we met in 2020. Her name is Alfin Dihan Pratama and i call her "olaf".
+           it was small, unexpected — 
+          At our first meeting, I got to know him as an indifferent, cold guy with no romantic side, but one day....
+        We had a relationship, and it only lasted a few months and ended, so I decided to leave.</p></div>
+      </article>
+      <article class="year right">
+        <div class="img"><img src="assets/images/2023.jpg" alt="2023"></div>
+        <div class="text"><h3>2023 — Birthday Concert</h3><p>
+          july 2023 — After two years of lost contact on my birthday, he just came to say happy birthday and then left, but after that he came because I was watching a concert in Jakarta, and then he left again, who knows where, and we lost contact.</p></div>
+      </article>
+      <article class="year left">
+        <div class="img"><img src="assets/images/2024.jpg" alt="2024"></div>
+        <div class="text"><h3>2024 — Distance & Return</h3><p>
+         This year, he came back at the beginning of the year, and we met again in May 2024. 
+         He continued his education at STIP JAKARTA, and I resumed my relationship with him.
+          In June 2024, he made a mistake that disappointed me, and I left him again for the umpteenth time. 
+          In December 2025, he came back to persuade me to take him back.But my answer remains the same
+           I won't return until he proves who he really is and what his intentions are.</p></div>
+      </article>
+      <article class="year right">
+        <div class="img"><img src="assets/images/2025.jpg" alt="2025"></div>
+        <div class="text"><h3>2025 — from Now Until Forever</h3><p>
+          February 2025, I sent him a scrapbook I made myself as a gift on February 17, his 20th birthday.
+        But I still didn't want to accept him in my life. In April 2025, I sent flowers to his mother for Eid al-Fitr, 
+        and from then on, everything changed. He began to fight for me like the woman he wanted, 
+        and in July 2025, he celebrated my birthday by giving me Nailong, one of my favorite dolls, 
+        and we made a commitment to each other at that moment. Now I've changed his name to “Mylong.”
+        This year, we have learned to be better and to appreciate each other more, now and forever.
+        </p></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="gallery" class="card gallery-invite">
+    <h2>Gallery</h2>
+    <p class="muted">slide → to see memories</p>
+    <div class="slider-wrap">
+      <button id="prevBtn" class="slide-btn">‹</button>
+      <div class="slider" id="slider">
+        <!-- each slide shows 4 images -->
+        <div class="slide">
+          <figure class="photo"><img src="assets/images/foto1.jpg" alt="mem 1"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto2.jpg" alt="mem 2"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto3.jpg" alt="mem 3"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto4.jpg" alt="mem 4"><figcaption></figcaption></figure>
+        </div>
+        <div class="slide">
+          <figure class="photo"><img src="assets/images/foto5.jpg" alt="mem 5"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto6.jpg" alt="mem 6"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto7.jpg" alt="mem 7"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto8.jpg" alt="mem 8"><figcaption></figcaption></figure>
+        </div>
+        <div class="slide">
+          <figure class="photo"><img src="assets/images/foto9.jpg" alt="mem 9"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto10.jpg" alt="mem 10"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto11.jpg" alt="mem 11"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto12.jpg" alt="mem 12"><figcaption></figcaption></figure>
+        </div>
+        <div class="slide">
+          <figure class="photo"><img src="assets/images/foto13.jpg" alt="mem 13"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto14.jpg" alt="mem 14"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto15.jpg" alt="mem 15"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto16.jpg" alt="mem 16"><figcaption></figcaption></figure>
+        </div>
+        <div class="slide">
+          <figure class="photo"><img src="assets/images/17.jpg" alt="mem 17"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/18.jpg" alt="mem 18"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto19.jpg" alt="mem 19"><figcaption></figcaption></figure>
+          <figure class="photo"><img src="assets/images/foto20.jpg" alt="mem 20"><figcaption></figcaption></figure>
+        </div>
+
+      </div>
+      <button id="nextBtn" class="slide-btn">›</button>
+    </div>
+
+    <script>
+const slider = document.getElementById("slider");
+const nextBtn = document.getElementById("nextBtn");
+const prevBtn = document.getElementById("prevBtn");
+
+nextBtn.addEventListener("click", () => {
+  slider.scrollBy({ left: slider.offsetWidth, behavior: "smooth" });
+});
+
+prevBtn.addEventListener("click", () => {
+  slider.scrollBy({ left: -slider.offsetWidth, behavior: "smooth" });
+});
+</script>
+
+  </section>
+
+  <section id="forever" class="card forever-section">
+  <h2>Forever</h2>
+  <p class="muted">No matter how far, we'll always come back — together.</p>
+
+  <!-- Tulisan romantis di atas video -->
+  <div class="watch-text">💌 Ayo tonton 💕</div>
+
+  <!-- Video tampil langsung -->
+  <div class="video-container show">
+    <div class="video-frame">
+      <video id="loveVideo" controls autoplay muted playsinline>
+        <source src="assets/images/MY.mp4" type="video/mp4">
+       
+      </video>
+    </div>
+  </div>
+
+  <!-- Panah animasi di bawah video -->
+  <!-- <div class="arrow-down">⬇️</div> -->
+</section>
+<style>
+
+   /* Fade-in container */
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0;
+  animation: fadeIn 1.2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Frame video */
+.video-frame {
+  display: inline-block;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.6);
+  transition: transform 0.5s ease;
+}
+
+.video-frame:hover {
+  transform: scale(1.03);
+}
+
+/* Videonya */
+/* .video-frame video {
+  display: block;
+  width: 80%;
+  max-width: 720px;
+  height: auto;
+  border-radius: inherit;
+  object-fit: cover;
+} */
+
+/* Tulisan "Ayo tonton" */
+.watch-text {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #e04683;
+  margin-bottom: 10px;
+  animation: pulseText 2s infinite;
+}
+
+@keyframes pulseText {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.08); opacity: 0.8; }
+}
+
+/* Panah animasi */
+/* .arrow-down {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+  color: #e04683;
+  animation: bounceArrow 1.2s infinite ease-in-out;
+} */
+
+@keyframes bounceArrow {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(8px); opacity: 0.7; }
+}
+</style>
+  
+
+  </video>
+</div>
+<section id="videoGallery" class="card video-gallery-grid">
+  <h2>Our Moments 🎞️</h2>
+  <!-- <p class="muted">ayo see memoryy kitaaa💕</p> -->
+
+  <div class="video-grid">
+    <!-- Baris pertama -->
+    <video autoplay muted loop playsinline>
+      <source src="assets/images/vid5.mp4" type="video/mp4">
+    </video>
+    <video autoplay muted loop playsinline>
+      <source src="assets/images/vid7.mp4" type="video/mp4">
+    </video>
+    <video autoplay muted loop playsinline>
+      <source src="assets/images/vid1.mp4" type="video/mp4">
+    </video>
+
+    <!-- Baris kedua -->
+    <video autoplay muted loop playsinline>
+      <source src="assets/images/vid6.mp4" type="video/mp4">
+    </video>
+    <video autoplay muted loop playsinline>
+      <source src="assets/images/vid3.mp4" type="video/mp4">
+    </video>
+    <video autoplay muted loop playsinline>
+      <source src="assets/images/vid4.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+
+    <!-- Tombol kanan -->
+    <!-- <button class="slide-btn" id="nextVideoBtn">›</button>
+  </div>
+</section> -->
+
+<style>
+  
+.video-gallery-grid {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.video-gallery-grid h2 {
+  font-size: 28px;
+  margin-bottom: 6px;
+  color: #e04683;
+}
+
+.video-gallery-grid p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+/* Galeri dua baris */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  justify-items: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Responsif (untuk HP & tablet) */
+@media (max-width: 900px) {
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tampilan video */
+.video-grid video {
+  width: 100%;
+  max-width: 400px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 25px; /* ujung tumpul */
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6); /* bayangan hitam halus */
+  filter: brightness(0.9);
+  transition: transform 0.4s ease, filter 0.3s ease;
+}
+
+.video-grid video:hover {
+  transform: scale(1.04);
+  filter: brightness(1);
+}
+
+
+</style>
+<script>
+const videoSlider = document.getElementById('videoSlider');
+const nextVideoBtn = document.getElementById('nextVideoBtn');
+const prevVideoBtn = document.getElementById('prevVideoBtn');
+
+// Geser kanan & kiri
+nextVideoBtn.addEventListener('click', () => {
+  videoSlider.scrollBy({ left: 460, behavior: 'smooth' });
+});
+prevVideoBtn.addEventListener('click', () => {
+  videoSlider.scrollBy({ left: -460, behavior: 'smooth' });
+});
+
+// Pastikan semua video auto play
+window.addEventListener('load', () => {
+  const videos = document.querySelectorAll('#videoSlider video');
+  videos.forEach(v => {
+    v.play().catch(err => console.warn("Autoplay blocked:", err));
+  });
+});
+</script>
+
+
+  
+  <section id="message" class="card message-invite">
+    <h2>Message for mylong</h2>
+    <p class="muted">hey mylong — i'm so happy you're here in my life. 
+      let's promise to always be honest. i love you, sayang.</p>
+
+     <h3>Do you want to send me a message?</h3> 
+     <a href="https://wa.me/6285414534149?text=Halo%20Keyla!" target="_blank" class="wa-btn">
+  Click at here Honeyyy
+  <style>
+    .wa-btn {
+  background-color: #8e2de2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.3s;
+}
+.wa-btn:hover {
+  background-color: wheat;
+}
+
+  </style>
+</a>
+
+  </section>
+</main>
+
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Gift Love — Heart Frame</title>
+<style>
+  :root{
+    --bg:#fff5fb; --pink:#ff6ea6; --deep:#e04683; --shadow:rgba(255,110,166,.35);
+  }
+  html,body{margin:0;height:100%;background:radial-gradient(circle at 20% 10%,#ffe7f4,#fff5fb 40%,#fff 100%);
+    font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
+    color:#291a1f; overflow-x:hidden;}
+  .gift-section{max-width:960px;margin:24px auto 64px;padding:16px}
+  h2{margin:0 0 8px;font-size:28px;letter-spacing:.5px}
+  p.small{margin:0 0 24px;opacity:.8}
+  .stage{display:grid;grid-template-columns:1fr;place-items:center;gap:20px}
+
+  /* HEART FRAME */
+  .heart-wrap{position:relative;width:min(88vw,520px);aspect-ratio:1/1;display:grid;place-items:center;
+    filter:drop-shadow(0 18px 30px var(--shadow))}
+  .pulse{animation:pulse 2.2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{transform:scale(1);filter:drop-shadow(0 18px 30px var(--shadow))}
+    50%{transform:scale(1.03);filter:drop-shadow(0 28px 50px var(--shadow))}}
+
+  /* Button */
+  .gift-box{user-select:none;cursor:pointer;padding:14px 22px;border-radius:16px;
+    background:linear-gradient(180deg,var(--pink),var(--deep));color:#fff;font-weight:700;letter-spacing:.3px;
+    box-shadow:0 10px 20px var(--shadow);transition:transform .15s ease, box-shadow .15s ease}
+  .gift-box:active{transform:translateY(1px) scale(.99);box-shadow:0 6px 16px var(--shadow)}
+
+  /* Text reveal */
+  .gift-text{margin-top:6px;font-size:clamp(18px,2.8vw,28px);font-weight:700;
+    background:linear-gradient(90deg,var(--deep),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent;
+    opacity:0;transform:translateY(6px);transition:opacity .6s ease, transform .6s ease;text-align:center}
+  .gift-text.show-text{opacity:1;transform:translateY(0)}
+
+  /* Floating hearts */
+  .love{position:fixed;pointer-events:none;user-select:none;font-size:30px;will-change:transform,opacity;
+    transition:transform 3s ease-out,opacity 3s ease-out;z-index:50}
+  .bg-hearts{position:absolute;inset:-10% -5% -10% -5%;
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(255,110,166,.12) 0 8px, transparent 9px),
+      radial-gradient(circle at 80% 16%, rgba(255,110,166,.12) 0 8px, transparent 9px),
+      radial-gradient(circle at 10% 70%, rgba(255,110,166,.12) 0 8px, transparent 9px),
+      radial-gradient(circle at 90% 75%, rgba(255,110,166,.12) 0 8px, transparent 9px);
+    filter:blur(.2px);z-index:0}
+  .tip{margin-top:10px;font-size:12px;opacity:.65;text-align:center}
+</style>
+</head>
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Special Gift 💖</title>
+<style>
+  :root {
+    --bg: #fff5fb;
+    --pink: #ff6ea6;
+    --deep: #e04683;
+    --shadow: rgba(255,110,166,.35);
+  }
+
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: radial-gradient(circle at 20% 10%, #ffe7f4, #fff5fb 40%, #fff 100%);
+    font-family: "Poppins", sans-serif;
+    color: #291a1f;
+    overflow-x: hidden;
+  }
+
+  .gift-section {
+    text-align: center;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+  }
+
+  p.small {
+    margin: 0 0 24px;
+    opacity: 0.8;
+  }
+
+  .gift-box {
+    user-select: none;
+    cursor: pointer;
+    padding: 14px 22px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, var(--pink), var(--deep));
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    box-shadow: 0 10px 20px var(--shadow);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    display: inline-block;
+  }
+
+  .gift-box:active {
+    transform: translateY(1px) scale(.98);
+    box-shadow: 0 6px 16px var(--shadow);
+  }
+
+  .gift-text {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(90deg, var(--deep), var(--pink));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity .6s ease, transform .6s ease;
+  }
+
+  .gift-text.show-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .love {
+    position: fixed;
+    pointer-events: none;
+    user-select: none;
+    font-size: 30px;
+    transition: transform 3s ease-out, opacity 3s ease-out;
+    z-index: 9999;
+  }
+</style>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Special Gift 💖</title>
+<style>
+  :root {
+    --bg: #fff5fb;
+    --pink: #ff6ea6;
+    --deep: #e04683;
+    --shadow: rgba(255,110,166,.35);
+  }
+
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: radial-gradient(circle at 20% 10%, #ffe7f4, #fff5fb 40%, #fff 100%);
+    font-family: "Poppins", sans-serif;
+    color: #291a1f;
+    overflow-x: hidden;
+  }
+
+  .gift-section {
+    text-align: center;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+  }
+
+  p.small {
+    margin: 0 0 24px;
+    opacity: 0.8;
+  }
+
+  .gift-box {
+    user-select: none;
+    cursor: pointer;
+    padding: 14px 22px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, var(--pink), var(--deep));
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    box-shadow: 0 10px 20px var(--shadow);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    display: inline-block;
+  }
+
+  .gift-box:active {
+    transform: translateY(1px) scale(.98);
+    box-shadow: 0 6px 16px var(--shadow);
+  }
+
+  .gift-text {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(90deg, var(--deep), var(--pink));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity .6s ease, transform .6s ease;
+  }
+
+  .gift-text.show-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .love {
+    position: fixed;
+    pointer-events: none;
+    user-select: none;
+    font-size: 30px;
+    transition: transform 3s ease-out, opacity 3s ease-out;
+    z-index: 9999;
+  }
+</style>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Forever Back to You — A Lavender Story</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+/* === NAVBAR === */
+nav {
+  background: rgba(142, 45, 226, 0.4);
+  backdrop-filter: blur(10px);
+  padding: 15px 30px;
+  border-radius: 0 0 20px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+nav a {
+  color: white;
+  font-weight: 500;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+/* === GIFT SECTION === */
+:root {
+  --pink: #ff6ea6;
+  --deep: #e04683;
+  --shadow: rgba(255,110,166,.35);
+}
+.gift-section {
+  text-align: center;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+}
+.gift-box {
+  user-select: none;
+  cursor: pointer;
+  padding: 14px 22px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--pink), var(--deep));
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  box-shadow: 0 10px 20px var(--shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: inline-block;
+}
+.gift-box:active {
+  transform: translateY(1px) scale(.98);
+  box-shadow: 0 6px 16px var(--shadow);
+}
+.gift-text {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--deep), var(--pink));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.gift-text.show-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+.love {
+  position: fixed;
+  pointer-events: none;
+  user-select: none;
+  font-size: 30px;
+  transition: transform 3s ease-out, opacity 3s ease-out;
+  z-index: 9999;
+}
+
+/* === ENABLE SOUND BUTTON === */
+#soundEnable {
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  z-index: 99999;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(180deg,#ff6ea6,#e04683);
+  color: #fff;
+  font-weight: 700;
+  display: none;
+}
+</style>
+</head>
+
+<body>
+<!-- === NAVBAR === -->
+<nav class="nav-bar">
+  <div class="nav-inner">
+    <div class="brand"><p style="color: white;">Forever Back To You</p></div>
+    <div class="menu">
+      <a href="#home">Home</a>
+      <a href="#story">Kisah</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#forever">Forever</a>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- === GIFT SECTION === -->
+<section class="gift-section">
+  <h2>Special Gift</h2>
+  <p class="small">Sebelum klik ini pastiin vidio di "forever" di pause dulu ya, biar terdengar</p>
+
+  <div id="giftBox" class="gift-box">🎁 Klik!</div>
+  <div id="giftText" class="gift-text">Happy 5th Anniversary, mylongg 💖</div>
+</section>
+
+<!-- === AUDIO === -->
+<audio id="bgAudio" preload="auto" loop>
+  <source src="assets/audio/FOREFERYOUNG.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="giftAudio" preload="auto">
+  <source src="assets/audio/voice.mp3" type="audio/mpeg">
+</audio>
+
+<button id="soundEnable">🔊 Enable Sound</button>
+
+
+<script>
+// === Ambil elemen ===
+const bg = document.getElementById('bgAudio');
+const voice = document.getElementById('giftAudio');
+const soundBtn = document.getElementById('soundEnable');
+const giftBox = document.getElementById('giftBox');
+const giftText = document.getElementById('giftText');
+
+// Fungsi fade halus
+function fade(audio, from=1, to=0, duration=800){
+  return new Promise(resolve=>{
+    const steps = 20;
+    const stepTime = duration/steps;
+    let curr = from;
+    const delta = (to - from)/steps;
+    audio.volume = Math.max(0, Math.min(1, curr));
+    const timer = setInterval(()=>{
+      curr += delta;
+      audio.volume = Math.max(0, Math.min(1, curr));
+      if ((delta < 0 && curr <= to) || (delta > 0 && curr >= to)) {
+        audio.volume = Math.max(0, Math.min(1, to));
+        clearInterval(timer);
+        resolve();
+      }
+    }, stepTime);
+  });
+}
+
+// Autoplay backsound
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    bg.volume = 0.8;
+    await bg.play();
+  } catch (e) {
+    soundBtn.style.display = 'block';
+  }
+});
+
+soundBtn.addEventListener('click', async ()=>{
+  try {
+    soundBtn.style.display = 'none';
+    bg.volume = 0.8;
+    await bg.play();
+  } catch(e){
+    soundBtn.style.display = 'block';
+  }
+});
+
+// Animasi love
+function spawnHearts(count = 80) {
+  for (let i = 0; i < count; i++) {
+    const love = document.createElement('div');
+    love.className = 'love';
+    love.textContent = Math.random() > 0.8 ? '💖' : '💗';
+    love.style.left = Math.random() * window.innerWidth + 'px';
+    love.style.top = Math.random() * window.innerHeight + 'px';
+    love.style.fontSize = (18 + Math.random() * 42) + 'px';
+    love.style.opacity = 1;
+    document.body.appendChild(love);
+
+    setTimeout(() => {
+      const xMove = Math.random() * 200 - 100;
+      const yMove = -(80 + Math.random() * 200);
+      love.style.transform = `translate(${xMove}px, ${yMove}px)`;
+      love.style.opacity = 0;
+    }, 30);
+
+    setTimeout(() => love.remove(), 3500);
+  }
+}
+
+// Saat tombol gift diklik
+async function onGiftClicked(){
+  giftText.classList.add('show-text');
+  spawnHearts(90);
+
+  // Fade out Elvis
+  await fade(bg, bg.volume ?? 0.8, 0, 600);
+  bg.pause();
+
+  // Play voice
+  try {
+    voice.currentTime = 0;
+    voice.volume = 1.0;
+    await voice.play();
+  } catch(e){
+    console.warn('Voice gagal play:', e);
+  }
+
+  // Setelah voice selesai → resume Elvis
+  voice.onended = async () => {
+    try {
+      await bg.play();
+      await fade(bg, 0, 0.8, 800);
+    } catch(e){
+      soundBtn.style.display = 'block';
+    }
+  };
+}
+
+giftBox.addEventListener('click', onGiftClicked);
+</script>
+</body>
+</html>
+
+
+<!-- === AUDIO === -->
+<audio id="bgAudio" preload="auto" loop>
+  <source src="assets/audio/Elvis Presley - Can't Help Falling In Love _ Music Travel Love (Cover).mp3" type="audio/mpeg">
+</audio>
+
+<audio id="giftAudio" preload="auto">
+  <source src="assets/audio/voice.mp3" type="audio/mpeg">
+</audio>
+
+<button id="soundEnable">🔊 Enable Sound</button>
+<script>
+// === Ambil elemen ===
+const bg = document.getElementById('bgAudio');
+const voice = document.getElementById('giftAudio');
+const soundBtn = document.getElementById('soundEnable');
+const giftBox = document.getElementById('giftBox');
+const giftText = document.getElementById('giftText');
+
+// Fungsi fade halus
+function fade(audio, from=1, to=0, duration=800){
+  return new Promise(resolve=>{
+    const steps = 20;
+    const stepTime = duration/steps;
+    let curr = from;
+    const delta = (to - from)/steps;
+    audio.volume = Math.max(0, Math.min(1, curr));
+    const timer = setInterval(()=>{
+      curr += delta;
+      audio.volume = Math.max(0, Math.min(1, curr));
+      if ((delta < 0 && curr <= to) || (delta > 0 && curr >= to)) {
+        audio.volume = Math.max(0, Math.min(1, to));
+        clearInterval(timer);
+        resolve();
+      }
+    }, stepTime);
+  });
+}
+
+// Autoplay backsound
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    bg.volume = 0.8;
+    await bg.play();
+  } catch (e) {
+    soundBtn.style.display = 'block';
+  }
+});
+
+soundBtn.addEventListener('click', async ()=>{
+  try {
+    soundBtn.style.display = 'none';
+    bg.volume = 0.8;
+    await bg.play();
+  } catch(e){
+    soundBtn.style.display = 'block';
+  }
+});
+
+// Animasi love
+function spawnHearts(count = 80) {
+  for (let i = 0; i < count; i++) {
+    const love = document.createElement('div');
+    love.className = 'love';
+    love.textContent = Math.random() > 0.5 ? '💖' : '💗';
+    love.style.left = Math.random() * window.innerWidth + 'px';
+    love.style.top = Math.random() * window.innerHeight + 'px';
+    love.style.fontSize = (18 + Math.random() * 42) + 'px';
+    love.style.opacity = 1;
+    document.body.appendChild(love);
+
+    setTimeout(() => {
+      const xMove = Math.random() * 200 - 100;
+      const yMove = -(80 + Math.random() * 200);
+      love.style.transform = `translate(${xMove}px, ${yMove}px)`;
+      love.style.opacity = 0;
+    }, 30);
+
+    setTimeout(() => love.remove(), 3500);
+  }
+}
+
+// Saat tombol gift diklik
+async function onGiftClicked(){
+  giftText.classList.add('show-text');
+  spawnHearts(90);
+
+  // Fade out Elvis
+  await fade(bg, bg.volume ?? 0.8, 0, 600);
+  bg.pause();
+
+  // Play voice
+  try {
+    voice.currentTime = 0;
+    voice.volume = 1.0;
+    await voice.play();
+  } catch(e){
+    console.warn('Voice gagal play:', e);
+  }
+
+  // Setelah voice selesai → resume Elvis
+  voice.onended = async () => {
+    try {
+      await bg.play();
+      await fade(bg, 0, 0.8, 800);
+    } catch(e){
+      soundBtn.style.display = 'block';
+    }
+  };
+}
+
+giftBox.addEventListener('click', onGiftClicked);
+</script>
+<footer class="site-footer">
+  <div>Made with love — Keys &amp; Mylong · 2025</div>
+</footer>
+</body>
+</html>
+</script>
+
+</body>
+</html>
+</script>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
